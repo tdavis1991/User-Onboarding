@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
+  background-image: url("https://www.barraques.cat/pngfile/big/0-7755_nature-pier-bridge-d-river-water-sunset-night.jpg")
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+Form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+.info-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.info {
+  margin: 10px 5px;
+}
+label {
+  color: white;
+}
+button {
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.card-container {
+  /* width: 30%; */
+  display: flex;
+  margin: 0 auto;
+}
+.user-info {
+  background-color: darkslategray;
+  border-radius: 10px;
+  margin: 5px;
+  color: white;
+  padding: 5px 10px;
+  border: 1px dashed lightslategray;
 }
