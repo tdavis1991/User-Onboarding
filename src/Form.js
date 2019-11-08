@@ -7,6 +7,9 @@ import UserCard from './UserCard';
 const UserForm = ({errors, touched, status}) => {
 
     const [user, setUser] = useState([])
+    console.log(user)
+    console.log(status)
+    console.log(touched)
 
     useEffect(() => {
         if(status) {
